@@ -1,0 +1,56 @@
+.containerForm {
+  margin-top: 15%;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+}
+body {
+  font-family: "Abyssinica SIL", serif;
+  font-weight: 700;
+  color: black;
+  background-color: burlywood;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  min-width: 1280;
+  min-height: 1020;
+}
+.btnpreview {
+  font-size: 25px;
+  background-color: black;
+  color: bisque;
+  border-radius: 30%;
+  margin-top: 10px;
+  margin-left: 47%;
+  align-items: center;
+  max-width: 150px;
+  height: 100px;
+}
+#tempform {
+  margin-top: 5%;
+  min-width: 500;
+  min-height: 500;
+  background-color: bisque;
+}
+#cardInfo {
+  margin-top: 25px;
+  background-position: 50%;
+  min-width: 500x;
+  min-height: 200px;
+  background-repeat: no-repeat;
+}
+
+#template {
+  font-family: "Abyssinica SIL", serif;
+  font-size: 20px;
+  color: black;
+  margin-top: 50px;
+  max-width: 600;
+  max-height: 900;
+  background-color: rgba(0, 0, 0, 0.596);
+}
+html {
+  width: 2440;
+  height: 1770;
+}

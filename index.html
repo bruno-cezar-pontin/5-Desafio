@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <script type="text/javascript" src="/js/jquery-3.6.0.js"></script>
+    <script src="/js/functions.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Abyssinica+SIL&display=swap" rel="stylesheet">
     <title>Document</title>
   </head>
   <body>
@@ -39,8 +43,29 @@
         maxlength="30"
         required
       /><br /><br />
-      <label for="mesnagem">Mensagem</label>
+      <label for="mensagem">Mensagem</label>
       <textarea for="mensagem" id="mensagem" maxlength="200"></textarea>
     </div>
+    <div class="img-bg-slct">
+    <label for="buttons">Escolha um estilo:</label>
+    <input class="image-background-selector" type="radio" name="esc_estilo" value="BGOne"><img src="/img/bg1card.png" width="100px" height="100px"></input>
+    <input class="image-background-selector" type="radio" name="esc_estilo" value ="BGTwo"><img src="/img/bg2card.png" width="100px" height="100px"></input>
+    <input class="btn" type="radio" name="esc_estilo" value ="BGThree"><img src="/img/bg3card.png" width="100px" height="100px"></input>
+    <input class="btn" type="radio" name="esc_estilo" value ="BGFour"><img src="/img/bg4card.png" width="100px" height="100px">
+</div>
+    <button class="btnpreview" id="btnpreview" type="submit" name="preview" value="Preview" onclick="showDiv()">Preview</button>
+    <div id="template" style="display:none" class="cardMaster">
+      <label for="lg" id="lgtemp"></label><br>
+      <label for="name" id="nametemp"></label><br>
+      <label for="sobreNome" id="sobreNometemp"></label><br>
+      <label for="sexo" id="sexotemp"></label><br>
+      <label for="idade" id="idadetemp"></label><br><br>
+      <label for="titulo" id="titulotemp"></label><br>
+    <div id="cardInfo"  style="display:none;" class="cardinfos" >
+    
+    <label id="message"></label>
+  </div>
+  <label for="att">Att, Bruno Cezar.</label>
+</div>
   </body>
 </html>
