@@ -46,8 +46,8 @@ body {
   font-size: 20px;
   color: black;
   margin-top: 50px;
-  max-width: 600;
-  max-height: 900;
+  min-width: 600;
+  min-height: 900;
   background-color: rgba(0, 0, 0, 0.596);
 }
 html {
